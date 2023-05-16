@@ -906,6 +906,31 @@ echo "████████████████████████�
 sleep 1
 clear
 figlet -c "CyberCoder"
+echo -e "\e[1;35m <--------------------CREDITS-------------------------------> \e[0m"
+echo " "
+echo -e "\e[1;35m <--------------------discord-------------------> \e[0m"
+echo " "
+echo -e "\e[1;35m <----------------------------------------------------------> \e[0m"
+echo " "
+echo -e "\e[1;35m discord \e[0m"
+echo " "
+echo -e "\e[1;35m <----------------------------------------------------------> \e[0m"
+echo " "
+echo -e "\e[1;35m https://discord.gg/t7sqkuQ2ux \e[0m"
+echo " "
+echo -e "\e[1;35m <----------------------------------------------------------> \e[0m"
+echo " "
+echo -e "\e[1;35m https://discord.gg/t7sqkuQ2ux \e[0m"
+echo " "
+echo -e "\e[1;35m <----------------------------------------------------------> \e[0m"
+echo " "
+echo -e "\e[1;35m https://discord.gg/t7sqkuQ2ux \e[0m"
+echo " "
+echo -e "\e[1;35m <----------------------------------------------------------> \e[0m"             
+;;
+A)
+clear
+figlet -c "CyberCoder"
 echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 echo "<~~~~~~~~~~~~~~Installing All tools~~~~~~~~~~~~~~>"
 git clone https://github.com/rorizam323/shellphish
@@ -970,6 +995,5 @@ X)
 	echo "I don't understand you"
 	exit
 	;;
-                                                           echo "Support server form tool CyberCoder:https://discord.gg/t7sqkuQ2ux" 
-
+                                                           
  esac
