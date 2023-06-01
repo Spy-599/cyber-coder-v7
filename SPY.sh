@@ -3,27 +3,27 @@ clear
 figlet -c "CyberCoder"
 echo "Loading.."
 echo "████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 20%	"
-sleep 10
+sleep 1
 clear
 figlet -c "CyberCoder"
 echo "Loading..."
 echo "████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 40%	"
-sleep 9
+sleep 1
 clear
 figlet -c "CyberCoder"
 echo "Loading..."
 echo "████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 60%	"
-sleep 8
+sleep 1
 clear
 figlet -c "CyberCoder"
 echo "Loading...."
 echo "████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░ 80%	"
-sleep 7
+sleep 1
 clear
 figlet -c "CyberCoder"
 echo "Loading....."
 echo "████████████████████████████████████████████████████████████████████████████████ 100%     "
-sleep 6 
+sleep 1
 clear
 figlet -c "CyberCoder"
 
