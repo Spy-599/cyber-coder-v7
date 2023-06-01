@@ -465,8 +465,8 @@ case $option in
 		            	    clear
                     	    figlet -c "CyberCoder"
 		                    echo "<-------------------------------------------------------------------->"
-		                    echo "<-------------------Installing pyPISHER------------------------->"
-		                    git clone https://github.com/sneakerhax/PyPhisher
+		                    echo "<-------------------Installing PyPISHER------------------------->"
+		                    git clone https://github.com/KasRoudra/PyPhisher
 		                    ;;
 		           
 		            4)      
