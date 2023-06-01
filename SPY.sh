@@ -27,7 +27,9 @@ sleep 1
 clear
 figlet -c "CyberCoder"
 
-echo "Support server form tool CyberCoder:https://discord.gg/t7sqkuQ2ux ,Email developer: SPY_599@n8.gs" 
+echo "Email developer: SPY_599@n8.gs" 
+
+echo -e "\e[1;35m Welcome To Cyber Coder V2 \e[0m"
 
 echo -e "\e[1;31m <--------------------------Tool Categories---------------------------------> \e[0m"
 echo -e "\e[1;33m 1) Information Gathering \e[0m"
@@ -438,7 +440,7 @@ case $option in
 		    echo "<----------------------------menu-------------------------->"  
 		    echo "1) Setoolkit "
 		    echo "2) SSLtrip"
-		    echo "3) pyPISHER" 
+		    echo "3) PyPISHER" 
 		    echo "4) SMTP Mailer" 
 		    echo "5) Python Packet Sniffer"
 		    echo "A) Press A for All"
@@ -492,7 +494,7 @@ case $option in
 		                    echo "<---------------------Installing All Tools--------------------------->"        
 		                    git clone https://github.com/trustedsec/social-engineer-toolkit
 		                    git clone https://github.com/moxie0/sslstrip     
-		                    git clone https://github.com/sneakerhax/PyPhisher
+		                    git clone https://github.com/KasRoudra/PyPhisher
 		                    git clone https://github.com/halojoy/PHP-SMTP-Mailer           
 		                    git clone https://github.com/buckyroberts/Python-Packet-Sniffer       
 		                                             
@@ -516,7 +518,7 @@ case $option in
 		    echo "<----------------------------menu-------------------------->"
 		    echo "1)  AndroRat"
 		    echo "2)  Csploit"
-		    echo "3)  Hackode"
+		    echo "3)  MHDDoS"
 		    echo "A)  Press A for All"
 		    echo "B)  Press B for Back" 
 		    echo "X)  For Exit"
@@ -541,8 +543,8 @@ case $option in
 		                    clear
                     	    figlet -c "CyberCoder"
 		                    echo "<-------------------------------------------------------------------->"
-		                    echo "<-----------------------Installing TheFatRat------------------------->"
-		                    git clone https://github.com/Exploit-install/TheFatRat
+		                    echo "<-----------------------Installing MHDDoS------------------------->"
+		                    git clone https://github.com/MatrixTM/MHDDoS
 		                    ;;         
 		            A)      
 		                  clear
@@ -551,7 +553,7 @@ case $option in
 		                  echo "<---------------------Installing All Tools----------------------->"        
 		                    git clone https://github.com/warecrer/AndroRAT
 		                    git clone https://github.com/cSploit/android   
-		                    git clone https://github.com/Exploit-install/TheFatRat                  
+		                    git clone https://github.com/MatrixTM/MHDDoS                  
 		                    ;;     
 		            B)     
 		                    bash SPY.sh
