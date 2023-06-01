@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 clear
 figlet -c "Cyber Coder V2"
-echo"Welcome To Cyber Coder V2"
+echo -e "\e[1;35m Welcome To Cyber Coder V2 \e[0m"
 echo "<----------------------Cyber Coder-------------------------->"
 
 echo"/////////////////////////////////"
