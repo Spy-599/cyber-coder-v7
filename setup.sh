@@ -1,10 +1,11 @@
 #!/usr/bin/bash
 clear
-figlet -c "CyberCoder"
+figlet -c "Cyber Coder V2"
+echo"Welcome To Cyber Coder V2"
 echo "<----------------------Cyber Coder-------------------------->"
 
 echo"/////////////////////////////////"
-echo "Support server form tool CyberCoder: https://discord.gg/t7sqkuQ2ux"
+echo "Support E-Mail address : SPY_599@n8.gs"
 echo"/////////////////////////////////"
 
 read -p "Do you want to continue installing setup? [y/n] : " answer
@@ -16,6 +17,7 @@ case $answer in
 		apt-get upgrade
 		apt-get install figlet
 		apt-get install git
+		apt install python python2 openssh -y && wget openssl-tool proot
 		bash SPY.sh
 		;;
 	n)
