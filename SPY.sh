@@ -29,8 +29,8 @@ figlet -c "CyberCoder"
 
 echo "Email developer: SPY_599@n8.gs"
 
-echo -e"\033[34m please wait to connect to local host"
-sleep 3
+echo -e"\e[1;33m please wait to connect to local host"
+sleep 4
 echo -e "\033[32m Done connected server http://192.168.1.9:4444"
 
 echo -e "\e[1;35m Welcome To Cyber Coder V2 \e[0m"
