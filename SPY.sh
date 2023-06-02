@@ -1,6 +1,25 @@
 #!/usr/bin/bash
 clear
-figlet -c "CyberCoder"
+echo "            _..._
+         .'     '.
+        /  _   _  \
+        | (o)_(o) |
+         \(     ) /
+         //'._.'\ \
+        //   .   \ \
+       ||   .     \ \.          
+       |\   :     / |
+       \ `) '   (`  /_
+     _)``".____,.'"` (_
+     )     )'--'(     (
+      '---`      `---`
+						
+						   ____      _                ____          _           
+             / ___|   _| |__   ___ _ __ / ___|___   __| | ___ _ __ 
+            | |  | | | | '_ \ / _ \ '__| |   / _ \ / _` |/ _ \ '__|
+            | |__| |_| | |_) |  __/ |  | |__| (_) | (_| |  __/ |   
+             \____\__, |_.__/ \___|_|   \____\___/ \__,_|\___|_|  "
+													
 echo "Loading.."
 echo "████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 20%	"
 sleep 1
@@ -28,8 +47,8 @@ clear
 figlet -c "CyberCoder"
 
 echo "Email developer: SPY_599@n8.gs"
-local B="\[\033[0;34m\]"
-echo "please wait to connect to local host"
+
+echo -e "\e[96m please wait to connect to local host"
 sleep 6
 echo -e "\033[32m Done connected server http://192.168.1.9:4444"
 
