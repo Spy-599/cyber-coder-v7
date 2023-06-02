@@ -895,22 +895,22 @@ pacman-key --init && pacman-key --populate archlinuxarm && pacman -Sy --noconfir
 figlet -c "CyberCoder"
 echo "Loading.."
 echo "████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 20%	"
-sleep 10
+sleep 1
 clear
 figlet -c "CyberCoder"
 echo "Loading..."
 echo "████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 40%	"
-sleep 9
+sleep 1
 clear
 figlet -c "CyberCoder"
 echo "Loading..."
 echo "████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 60%	"
-sleep 8
+sleep 1
 clear
 figlet -c "CyberCoder"
 echo "Loading...."
 echo "████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░ 80%	"
-sleep 7
+sleep 1
 clear
 figlet -c "CyberCoder"
 echo "Loading....."
@@ -944,7 +944,7 @@ echo -e "\e[1;35m <----------------------------------------------------------> \
 clear
 figlet -c "CyberCoder"
 echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
-echo "<~~~~~~~~~~~~~~END~~~~~~~~~~~~~~>"
+echo "<~~~~~~~~~~~~~~~update~~~~~~~~~~>"
 git clone https://github.com/Spy-599/cyber-coder
 ;;
 
