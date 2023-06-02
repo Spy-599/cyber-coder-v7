@@ -945,7 +945,7 @@ clear
 figlet -c "CyberCoder"
 echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
 echo "<~~~~~~~~~~~~~~~update~~~~~~~~~~>"
-git clone https://github.com/Spy-599/cyber-coder
+git clone https://github.com/Spy-599/updates
 ;;
 
 X)
