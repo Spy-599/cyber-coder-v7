@@ -37,7 +37,7 @@ figlet -c "CyberCoder"
 echo -e "\e[96m Done connected server http://192.168.1.9:4444"
 
  	
-echo -e "\e[34m Email developer: SPY_599@n8.gs"
+echo -e "\e[34m \e[5m Email developer: SPY_599@n8.gs"
 
 echo -e "\e[1;35m Welcome To Cyber Coder V5 \e[0m"
 
