@@ -51,7 +51,7 @@ echo -e "\e[1;33m 6) Brute Force Tools \e[0m"
 echo -e "\e[1;33m 7) Phishing Tools \e[0m"
 echo -e "\e[1;33m 8) OS installer \e[0m"
 echo -e "\e[1;33m 9) Credits \e[0m"
-echo -e "\e[1;33m 10) update \e[0m"
+echo -e "\e[1;33m 10) END \e[0m"
 echo -e "\e[1;33m X) For Exit \e[0m"
 echo -e "\e[1;31m <~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> \e[0m"
 read -p "Enter an option to continue: " option
