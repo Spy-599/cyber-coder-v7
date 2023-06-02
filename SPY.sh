@@ -34,7 +34,7 @@ clear
 
 figlet -c "CyberCoder"
 
-echo -e "\033[32m Done connected server http://192.168.1.9:4444"
+echo -e "\e[96m Done connected server http://192.168.1.9:4444"
 
  	
 echo -e "\e[34m Email developer: SPY_599@n8.gs"
