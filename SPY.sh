@@ -28,7 +28,11 @@ clear
 figlet -c "CyberCoder"
 
 echo -e "\e[96m please wait to connect to local host"
-sleep 6
+sleep 2
+echo -e "Default \e[92mLight green"
+clear
+
+figlet -c "CyberCoder"
 
 echo -e "\033[32m Done connected server http://192.168.1.9:4444"
 
