@@ -28,7 +28,7 @@ clear
 figlet -c "CyberCoder"
 
 echo "Email developer: SPY_599@n8.gs"
-
+local B="\[\033[0;34m\]"
 echo "please wait to connect to local host"
 sleep 6
 echo -e "\033[32m Done connected server http://192.168.1.9:4444"
