@@ -45,7 +45,7 @@ echo -e "\e[1;33m 6) Brute Force Tools \e[0m"
 echo -e "\e[1;33m 7) Phishing Tools \e[0m"
 echo -e "\e[1;33m 8) OS installer \e[0m"
 echo -e "\e[1;33m 9) Credits \e[0m"
-echo -e "\e[1;33m A) Press A for installing All \e[0m"
+echo -e "\e[1;33m 10) END \e[0m"
 echo -e "\e[1;33m X) For Exit \e[0m"
 echo -e "\e[1;31m <~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> \e[0m"
 read -p "Enter an option to continue: " option
@@ -934,63 +934,12 @@ echo -e "\e[1;35m https://discord.gg/t7sqkuQ2ux \e[0m"
 echo " "
 echo -e "\e[1;35m <----------------------------------------------------------> \e[0m"             
 ;;
-A)
+10)
 clear
 figlet -c "CyberCoder"
 echo "<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>"
-echo "<~~~~~~~~~~~~~~Installing All tools~~~~~~~~~~~~~~>"
-git clone https://github.com/rorizam323/shellphish
-git clone https://github.com/DarkSecDevelopers/HiddenEye  
-git clone https://github.com/An0nUD4Y/SocialFish 
-git clone https://github.com/htr-tech/zphisher
-git clone https://github.com/An0nUD4Y/blackeye
-git clone https://github.com/Cyb0r9/SocialBox
-git clone https://github.com/AngelSecurityTeam/BluForce-FB  
-git clone https://github.com/Oseid/FaceBoom  
-git clone https://github.com/Pure-L0G1C/Instagram
-git clone https://github.com/xHak9x/instabrute
-git clone https://github.com/0xfff0800/Brute-force-gmail
-git clone https://github.com/DEMON1A/GmailBruterV2
-git clone https://github.com/BlackXploits/WPBrute
-git clone https://github.com/TheDevFromKer/RDP-Brute
-git clone https://github.com/warecrer/AndroRAT
-git clone https://github.com/cSploit/android   
-git clone https://github.com/Exploit-install/TheFatRat  
-git clone https://github.com/trustedsec/social-engineer-toolkit
-git clone https://github.com/moxie0/sslstrip     
-git clone https://github.com/sneakerhax/PyPhisher
-git clone https://github.com/halojoy/PHP-SMTP-Mailer           
-git clone https://github.com/buckyroberts/Python-Packet-Sniffer      
-git clone https://github.com/AhMyth/AhMyth-Android-RAT    
-git clone https://github.com/jseidl/GoldenEye       
-git clone https://github.com/grafov/hulk           
-git clone https://github.com/Tuhinshubhra/CMSeeK            
-git clone https://github.com/rapid7/metasploit-framework            
-git clone https://github.com/TechnicalMujeeb/tmvenom           
-git clone https://github.com/hatRiot/zarp            
-git clone https://github.com/NullArray/AutoSploit
-git clone https://github.com/neoneggplant/EggShell              
-git clone https://github.com/Screetsec/Brutal 
-git clone https://github.com/Gameye98/OWScan
-git clone https://github.com/AndroBugs/AndroBugs_Framework
-git clone https://github.com/TechnicalMujeeb/TM-scanner
-git clone https://github.com/D4Vinci/Clickjacking-Tester
-git clone https://github.com/Dionach/CMSmap
-git clone https://github.com/bambish/ScanQLi
-git clone https://github.com/commixproject/commix
-git clone https://github.com/m4ll0k/WPSeku
-git clone https://github.com/threat9/routersploit
-git clone https://github.com/sullo/nikto
-git clone https://github.com/nahamsec/lazyrecon
-git clone https://github.com/Tuhinshubhra/RED_HAWK
-git clone https://github.com/Moham3dRiahi/Th3inspector
-git clone https://github.com/Moham3dRiahi/WPGrabInfo
-git clone https://github.com/GitHackTools/BillCipher
-git clone https://github.com/twelvesec/gasmask
-git clone https://github.com/ultrasecurity/webkiller
-git clone https://github.com/KnightSec-Official/FBI
-git clone https://github.com/hudacbr/D-TECT
-git clone https://github.com/issamelferkh/userrecon
+echo "<~~~~~~~~~~~~~~END~~~~~~~~~~~~~~>"
+echo "END"
 ;;
 
 X)
