@@ -795,88 +795,88 @@ case $option in
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
                             echo "<-----------------Installing Discord TOOLS v1 ----------------------------->"
-                            pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
+                          git clone https://github.com/Spy-599/Discord-TOOLS-v1
                             ;;
                     2)
                             clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<---------------------Installing Debian--------------------------->"
-                            pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Debian/debian.sh && bash debian.sh
+                            echo "<---------------------Installing --------------------------->"
+                            echo"END"
                             ;;
                     3)
                             clear
                     	    figlet -c " CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<-----------------------Installing Kali Linux------------------------>"
-                            pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
+                            echo "<-----------------------Installing ------------------------>"
+                            echo"END"
                             ;;     
                     4)
                             clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<-------------------Installing Kali NetHunter------------------------>"
-                            pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Nethunter/nethunter.sh && bash nethunter.sh
+                            echo "<-------------------Installing------------------------>"
+                            echo"END"
                             ;;  
                     5)
                             clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<-----------------------Installing Backbox-------------------------->"
-                            pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/BackBox/backbox.sh && bash backbox.sh
+                            echo "<-----------------------Installing -------------------------->"
+                            echo"END"
                             ;; 
                         
                     6)      
                             clear
                     	    figlet -c "CyberCoder "
                             echo "<-------------------------------------------------------------------->"
-                            echo "<---------------------Installing Fedora------------------------------>"   
-                            pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Fedora/fedora.sh && bash fedora.sh
+                            echo "<---------------------Installing ------------------------------>"   
+                            echo"END"
                             ;;     
                     
                     7)
                             clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<-----------------------Installing Cent Os--------------------------->"
-                            pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/CentOS/centos.sh && bash centos.sh
+                            echo "<-----------------------Installing-------------------------->"
+                            echo"END"
                             ;; 
                         
                     8)      
                     	    clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<-----------------Installing Opensuse Leap--------------------------->"        
-                            pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/openSUSE/Leap/opensuse-leap.sh && bash opensuse-leap.sh
+                            echo "<-----------------Installing -------------------------->"        
+                            echo"END"
                       	    ;;
                     9)
                             clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<----------------Installing OpenSUSE tumbleweed---------------------->"
-                            pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/openSUSE/Tumbleweed/opensuse-tumbleweed.sh && bash opensuse-tumbleweed.sh
+                            echo "<----------------Installing ---------------------->"
+                           echo"END"
                             ;; 
                         
                     10)      
                             clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<---------------------Installing Arch linux-------------------------->"   
-                              pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Arch/armhf/arch.sh && bash arch.sh   
+                            echo "<---------------------Installing -------------------------->"   
+                                 echo"END"
                               ;;
                     11)      
                             clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<---------------------Installing Black Arch-------------------------->"
-pacman-key --init && pacman-key --populate archlinuxarm && pacman -Sy --noconfirm curl && curl -O https://blackarch.org/strap.sh && chmod +x strap.sh && ./strap.sh
+                            echo "<---------------------Installing -------------------------->"
+echo"END"
                               ;;
                     12)      
                             clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<---------------------Installing Alpine------------------------------>"
-                            pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Alpine/alpine.sh && bash alpine.sh
+                            echo "<--------------------------------------------------->"
+                            echo"END"
                               ;;
                     B)     
                             bash SPY.sh
