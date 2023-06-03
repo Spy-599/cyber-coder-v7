@@ -780,11 +780,11 @@ case $option in
             echo "5)   soon"
             echo "6)   soon"
             echo "7)   soon"
-            echo "8)  Opensuse Leap"
-            echo "9)  OpenSUSE tumbleweed"
-            echo "10) Arch linux"
-            echo "11) Black Arch"
-            echo "12) Alpine"
+            echo "8)   soon"
+            echo "9)   soon"
+            echo "10)  soon"
+            echo "11)  soon"
+            echo "12)  soon"
             echo "B)  Press B for Back" 
             echo "X)  For Exit"
             echo "<-------------------------------------------------------------->"
@@ -794,7 +794,7 @@ case $option in
                     	    clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<-----------------Installing  Ubuntu----------------------------->"
+                            echo "<-----------------Installing Discord TOOLS v1 ----------------------------->"
                             pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
                             ;;
                     2)
