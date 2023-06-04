@@ -1,6 +1,4 @@
 #!/usr/bin/bash
-read -s -p "password: " TyQ3C_Vm8TCYwafzS!IwAszG-CkAM7-up8!C
-printf "%b" "\n"
 clear
 figlet -c "CyberCoder"
 echo "Loading.."
