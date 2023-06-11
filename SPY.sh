@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+#!/bin/bash
 clear
 figlet -c "CyberCoder"
 echo "Loading.."
@@ -26,6 +27,21 @@ echo "████████████████████████�
 sleep 1
 clear
 figlet -c "CyberCoder"
+# طلب إدخال اسم المستخدم
+read -p "please input username: " username
+
+# طلب إدخال كلمة المرور
+read -s -p "please input password: " password
+echo
+
+# التحقق من صحة اسم المستخدم وكلمة المرور
+if [ "$username" == "admin" ] && [ "$password" == "admin" ]; then
+    echo "success"
+    # قم بوضع الأوامر التي ترغب في تنفيذها هنا بعد التحقق من اسم المستخدم وكلمة المرور.
+else
+    echo (figlet -c "unsuccess")
+    exit 1  # يمكنك تغيير رمز الخروج حسب متطلباتك.
+fi
 
 echo -e "\e[96m please wait to connect to local host"
 sleep 2
