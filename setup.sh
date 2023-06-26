@@ -1,17 +1,14 @@
 #!/usr/bin/bash
 clear
-echo -e "\e[1;35m Welcome To Cyber Coder V5 \e[0m"
-echo "<----------------------Cyber Coder-------------------------->"
-
-echo"/////////////////////////////////"
-echo "Support E-Mail address : SPY_599@n8.gs"
-echo"/////////////////////////////////"
+echo -e "\033[34m[x] scan file\033[0m"
+sleep 4
+clear
+echo -e "\e[1;35m Welcome To Cyber Coder V7 \e[0m"
 
 read -p "Do you want to continue installing setup? [y/n] : " answer
 case $answer in
 	y)
 		clear
-		figlet -c "CyberCoder"
 		apt-get update
 		apt-get upgrade
 		apt-get install figlet
