@@ -1,32 +1,10 @@
 #!/usr/bin/bash
 #!/bin/bash
+
 clear
-figlet -c "CyberCoder"
-echo "Loading.."
-echo "████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 20%	"
-sleep 1
+
 clear
-figlet -c "CyberCoder"
-echo "Loading..."
-echo "████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 40%	"
-sleep 1
-clear
-figlet -c "CyberCoder"
-echo "Loading..."
-echo "████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 60%	"
-sleep 1
-clear
-figlet -c "CyberCoder"
-echo "Loading...."
-echo "████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░ 80%	"
-sleep 1
-clear
-figlet -c "CyberCoder"
-echo "Loading....."
-echo "████████████████████████████████████████████████████████████████████████████████ 100%     "
-sleep 1
-clear
-figlet -c "CyberCoder"
+
 # طلب إدخال اسم المستخدم
 read -p "please input username: " username
 
@@ -35,27 +13,47 @@ read -s -p "please input password: " password
 echo
 
 # التحقق من صحة اسم المستخدم وكلمة المرور
-if [ "$username" == "admin" ] && [ "$password" == "admin" ]; then
-    echo "success"
+if [ "$username" == "SPY" ] && [ "$password" == "599" ]; then
+    echo"---------------------"
     # قم بوضع الأوامر التي ترغب في تنفيذها هنا بعد التحقق من اسم المستخدم وكلمة المرور.
 else
-    echo (figlet -c "unsuccess")
+    figlet -c "STOP TOOL"
     exit 1  # يمكنك تغيير رمز الخروج حسب متطلباتك.
 fi
 
-echo -e "\e[96m please wait to connect to local host"
-sleep 2
-echo -e "Default \e[92mLight green"
+
+
+
 clear
 
-figlet -c "CyberCoder"
+symbols=( "%" "/" "$" "#" "~" "-")
+message="Starting CyberCoder"
 
-echo -e "\e[96m Done connected server http://192.168.1.9:4444"
+for i in "${symbols[@]}"; do
+  echo -ne "\r\033[31m$message $i\033[0m"
+  sleep 2
+done
 
+clear
+
+echo  "please wait to connect to local host"
+sleep 2
+
+clear
+
+
+
+echo -e "\e[1;35m \e[5m            Welcome To Cyber Coder V7.    \e[0m"
  	
-echo -e "\e[34m Email developer: SPY_599@n8.gs"
+echo -e  "\e[92m Author  : Spy_599"
 
-echo -e "\e[1;35m \e[5m Welcome To Cyber Coder V5 \e[0m"
+echo "Developer : MRVIP"
+
+echo "Supported platform  : all Linux distro and termux(android)"
+
+echo "Email: SPY_599@n8.gs"
+
+echo "TikTok: @i_20007"
 
 echo -e "\e[1;31m <--------------------------Tool Categories---------------------------------> \e[0m"
 echo -e "\e[1;33m 1) Information Gathering \e[0m"
@@ -65,7 +63,7 @@ echo -e "\e[1;33m 4) Sniffing & Spoofing \e[0m"
 echo -e "\e[1;33m 5) Android Hacking \e[0m"
 echo -e "\e[1;33m 6) Brute Force Tools \e[0m"
 echo -e "\e[1;33m 7) Phishing Tools \e[0m"
-echo -e "\e[1;33m 8) Discord Tools \e[0m"
+echo -e "\e[1;33m 8) (D)Tools \e[0m"
 echo -e "\e[1;33m 9) Credits \e[0m"
 echo -e "\e[1;33m 10) update \e[0m"
 echo -e "\e[1;33m X) For Exit \e[0m"
@@ -600,9 +598,9 @@ case $option in
             echo "1)  SocialBox"
             echo "2)  BluForce-FB"
             echo "3)  FaceBoom"
-            echo "4)  Instagram"
-            echo "5)  Instabrute"
-            echo "6)  Brute-force-gmail"
+            echo "4)  hashcat"
+            echo "5)  The PenTesters Framework"
+            echo "6)  GmailToolkit"
             echo "7)  GmailBruterV2"
             echo "8)  WPBrute"
             echo "9)  Cpanel-Bruter"
@@ -638,22 +636,22 @@ case $option in
                             clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<-----------------------Installing Instagram------------------------->"
-                            git clone https://github.com/Pure-L0G1C/Instagram
+                            echo "<-----------------------Installing hashcat------------------------->"
+                            git clone https://github.com/trustedsec/hate_crack.git
                             ;;  
                     5)
                             clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<-----------------------Installing Instabrute------------------------>"
+                            echo "<-----------------------Installing The PenTesters Framework (PTF)------------------------>"
                             git clone https://github.com/xHak9x/instabrute
                             ;; 
                      6)
                             clear
                     	    figlet -c "CyberCoder"
                             echo "<-------------------------------------------------------------------->"
-                            echo "<------------------Installing Brute-force-gmail---------------------->"
-                            git clone https://github.com/0xfff0800/Brute-force-gmail
+                            echo "<------------------Installing The Social-Engineer Toolkit (SET)---------------------->"
+                            git clone https://github.com/trustedsec/social-engineer-toolkit
                             ;; 
                      7)
                             clear
@@ -692,9 +690,9 @@ case $option in
                             git clone https://github.com/Cyb0r9/SocialBox
                             git clone https://github.com/AngelSecurityTeam/BluForce-FB  
                             git clone https://github.com/Oseid/FaceBoom  
-                            git clone https://github.com/Pure-L0G1C/Instagram
-                            git clone https://github.com/xHak9x/instabrute
-                            git clone https://github.com/0xfff0800/Brute-force-gmail
+                            git clone https://github.com/trustedsec/hate_crack.git
+                            git clone https://github.com/trustedsec/ptf
+                            git clone https://github.com/trustedsec/social-engineer-toolkit
                             git clone https://github.com/DEMON1A/GmailBruterV2
                             git clone https://github.com/BlackXploits/WPBrute
                             git clone https://github.com/TheDevFromKer/RDP-Brute
@@ -790,8 +788,8 @@ case $option in
             figlet -c "CyberCoder"
             echo "<----------------------------menu-------------------------->"
             echo "1)  Discord TOOLS v1"
-            echo "2)   soon"
-            echo "3)   soon "
+            echo "2)  Illegal Services"
+            echo "3)   All Rat Tool"
             echo "4)   soon"
             echo "5)   soon"
             echo "6)   soon"
@@ -816,21 +814,22 @@ case $option in
                     2)
                             clear
                     	    figlet -c "CyberCoder"
-                            echo "<-------------------------------------------------------------------->"
-                            echo "<---------------------Installing --------------------------->"
-                            echo"END"
+
+                            echo "<---------------------Installing Illegal Services--------------------------->"
+
+           git clone https://github.com/Illegal-Services/Illegal_Services               
                             ;;
                     3)
                             clear
                     	    figlet -c " CyberCoder"
-                            echo "<-------------------------------------------------------------------->"
-                            echo "<-----------------------Installing ------------------------>"
-                            echo"END"
+                         
+                            echo "<-----------------------Installing All Rat Tool------------------------>"
+                           git clone https://github.com/hktkqwe123/All-Hacking-Tools
                             ;;     
                     4)
                             clear
                     	    figlet -c "CyberCoder"
-                            echo "<-------------------------------------------------------------------->"
+                         
                             echo "<-------------------Installing------------------------>"
                             echo"END"
                             ;;  
@@ -909,57 +908,14 @@ echo"END"
 	9)
 		clear
 figlet -c "CyberCoder"
-echo "Loading.."
-echo "████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 20%	"
-sleep 1
-clear
-figlet -c "CyberCoder"
-echo "Loading..."
-echo "████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 40%	"
-sleep 1
-clear
-figlet -c "CyberCoder"
-echo "Loading..."
-echo "████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 60%	"
-sleep 1
-clear
-figlet -c "CyberCoder"
-echo "Loading...."
-echo "████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░ 80%	"
-sleep 1
-clear
-figlet -c "CyberCoder"
-echo "Loading....."
-echo "████████████████████████████████████████████████████████████████████████████████ 100%     "
-sleep 1
-clear
-figlet -c "CyberCoder"
-echo -e "\e[1;35m <--------------------CREDITS-------------------------------> \e[0m"
-echo " "
-echo -e "\e[1;35m <--------------------discord-------------------> \e[0m"
-echo " "
-echo -e "\e[1;35m <----------------------------------------------------------> \e[0m"
-echo " "
-echo -e "\e[1;35m discord \e[0m"
-echo " "
-echo -e "\e[1;35m <----------------------------------------------------------> \e[0m"
-echo " "
-echo -e "\e[1;35m https://discord.gg/t7sqkuQ2ux \e[0m"
-echo " "
-echo -e "\e[1;35m <----------------------------------------------------------> \e[0m"
-echo " "
-echo -e "\e[1;35m https://discord.gg/t7sqkuQ2ux \e[0m"
-echo " "
-echo -e "\e[1;35m <----------------------------------------------------------> \e[0m"
-echo " "
-echo -e "\e[1;35m https://discord.gg/t7sqkuQ2ux \e[0m"
+echo -e "\e[1;35m Dev by spy_599 \e[0m"
 echo " "
 echo -e "\e[1;35m <----------------------------------------------------------> \e[0m"             
 ;;
 10)
 clear
 figlet -c "CyberCoder"
-echo "<~~~~~~~~~~~~~~~~~~#1~~~~~~~~~~~~~~~~~>"
+echo "<~~~~~~~~~~~~~~~~~~#7~~~~~~~~~~~~~~~~~>"
 
 echo "<~~~~~~~~~~~~~~~update~~~~~~~~~~>"
 git clone https://github.com/Spy-599/updates
