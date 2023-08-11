@@ -12,16 +12,13 @@ read -p "please input username: " username
 read -s -p "please input password: " password
 echo
 
-# التحقق من صحة اسم المستخدم وكلمة المرور
 if [ "$username" == "SPY" ] && [ "$password" == "599" ]; then
     echo"---------------------"
-    # قم بوضع الأوامر التي ترغب في تنفيذها هنا بعد التحقق من اسم المستخدم وكلمة المرور.
 else
     figlet "STOP TOOL"
-    exit 1  # يمكنك تغيير رمز الخروج حسب متطلباتك.
+    exit 1  #
+
 fi
-
-
 
 
 clear
