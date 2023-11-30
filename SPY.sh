@@ -50,7 +50,7 @@ echo "Supported platform  : all Linux distro and termux(android)"
 
 echo "Email: SPY_599@n8.gs"
 
-echo "TikTok: @i_20007"
+echo ""
 
 echo -e "\e[1;31m <--------------------------Tool Categories---------------------------------> \e[0m"
 echo -e "\e[1;33m 1) Information Gathering \e[0m"
